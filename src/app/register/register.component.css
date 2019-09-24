@@ -1,0 +1,80 @@
+#part-view-full {
+    position: absolute;
+    height: 75%;
+    width: 75%;
+    top: 7%;
+    left: 15%;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+
+#part-view-1 {
+    height: 90%;
+    width: 100%;
+    position: relative;
+}
+
+p {
+    position: relative;
+    padding-top: 1%;
+    font-size: 24px;
+}
+
+hr {
+    position: absolute;
+    top: 10%;
+    width: 100%;
+}
+
+#btnRegister {
+    position: absolute;
+    top: 89%;
+    left: 85%;
+    width: 14%;
+    height: 8%;
+    border-radius: 15px;
+}
+
+#btnBack {
+    position: absolute;
+    top: 90%;
+    left: 3%;
+    width: 14%;
+    height: 8%;
+    border-radius: 15px;
+}
+
+#divRow1 {
+    padding-top: 3%;
+}
+
+#divRow2 {
+    padding-top: 1%;
+}
+
+#divRow3 {
+    padding-top: 0.1%;
+}
+
+/* #divRow4 {
+    padding-top: 0.5%;
+}
+
+#divRow5 {
+    padding-top: 0.5%;
+} */
+
+#divImgUser {
+    width: 1%;
+    height: 1%;
+}
+
+#divRadio01 {
+    position: absolute;
+    left: 56%;
+}
+
+#divRadio02 {
+    position: absolute;
+    left: 10%;
+}

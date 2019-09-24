@@ -1,0 +1,101 @@
+#part-view-full {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #32CD32;
+}
+
+#part-view-1 {
+    position: absolute;
+    height: 120%;
+    width: 100%;
+    top: 70%;
+    background-color: white;
+}
+
+#part-view-2 {
+    position: absolute;
+    height: 40%;
+    width: 55%;
+    top: 40%;
+    left: 23%;
+}
+
+#imgAbout {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+}
+
+#borderImg {
+    border-color: #32CD32;
+    border-width: 10px;
+    border-style: solid;
+    overflow: visible;
+}
+
+#h3AboutHeader {
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    color: white;
+    text-align: center;
+}
+
+#pAboutHeader {
+    position: absolute;
+    top: 25%;
+    color: white;
+    text-align: center;
+}
+
+#cardsAbout {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    width: 100%;
+}
+
+#cardGreen {
+    position: absolute;
+    left: 30%;
+}
+
+#carBlue {
+    position: absolute;
+    left: 0%;
+}
+
+#cardYellow {
+    position: absolute;
+    left: 60%;
+}
+
+#h1AboutHeader {
+    position: absolute;
+    left: 30%;
+    top: 45%;
+    color: #32CD32;
+}
+
+#btnGetStart {
+    position: absolute;
+    top: 95%;
+    left: 45%;
+    width: 11%;
+    height: 6%;
+    border-radius: 9px;
+}
+
+#lblContact {
+    position: absolute;
+    left: 75%;
+    top: 96%;
+}
+
+#btnEmail {
+    position: absolute;
+    left: 79.5%;
+    top: 95%;
+}

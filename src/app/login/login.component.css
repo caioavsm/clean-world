@@ -1,0 +1,80 @@
+p {
+    position: relative;
+    padding-top: 3%;
+    font-size: 24px;
+}
+#pSingin{
+    position: absolute;
+    top: 95%;
+    left: 10%;
+    font-size: 13px;
+}
+
+hr {
+    position: absolute;
+    left: 2%;
+    width: 50%;
+    top: 15%;
+}
+
+#txtLogin {
+    position: absolute;
+    left: 3%;
+    top: 30%;
+    width: 40%;
+    height: 11%;
+}
+
+#txtPassword {
+    position: absolute;
+    left: 3%;
+    top: 50%;
+    width: 40%;
+    height: 11%;
+}
+
+#ckRemember {
+    position: absolute;
+    left: 7%;
+    top: 66%;
+}
+
+#lblRemember {
+    position: absolute;
+    left: 7%;
+    top: 65.5%;
+    font-size: 14px;
+}
+
+#btnLogin {
+    position: absolute;
+    top: 88%;
+    left: 9%;
+    width: 30%;
+    height: 11%;
+    border-radius: 15px;
+}
+
+#imgLogo{
+    position: absolute;
+    top: 25%;
+    left: 65%;
+    width: 30%;
+    height: 55%;
+}
+
+#part-view-full {
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    top: 15%;
+    left: 23%;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+
+#part-view-1 {
+    height: 90%;
+    width: 100%;
+    position: relative;
+}
