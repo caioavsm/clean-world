@@ -37,7 +37,6 @@
 
 #h3AboutHeader {
     position: absolute;
-    left: 30%;
     top: 10%;
     color: white;
     text-align: center;
@@ -74,7 +73,7 @@
 
 #h1AboutHeader {
     position: absolute;
-    left: 30%;
+    left: 25%;
     top: 45%;
     color: #32CD32;
 }

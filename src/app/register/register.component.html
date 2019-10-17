@@ -1,28 +1,28 @@
 <div id="part-view-full" class="container">
     <div id="part-view-1" class="row">
         <div class="col-md-12">
-            <p class="lead"> Sing in </p>
+            <p class="lead"> Cadastrar </p>
             <hr>
             <form>
                 <div id="divRow1" class="form-row">
                     <div class="col-md-5 mb-3">
                         <input type="text" class="form-control  form-control-sm" id="validationDefault01"
-                            placeholder="First name" required>
+                            placeholder="Primeiro nome" required>
                     </div>
                     <div class="col-md-4 mb-3">
                         <input type="text" class="form-control  form-control-sm" id="validationDefault02"
-                            placeholder="Last name" required>
+                            placeholder="Último nome" required>
                     </div>
                     <div class="col-md-3 mb-3">
                         <div id="divRadio01" class="custom-control custom-radio custom-control-inline">
                             <input type="radio" id="customRadioInline1" name="customRadioInline1"
                                 class="custom-control-input">
-                            <label class="custom-control-label" for="customRadioInline1">Man</label>
+                            <label class="custom-control-label" for="customRadioInline1">Homem</label>
                         </div>
                         <div id="divRadio02" class="custom-control custom-radio custom-control-inline">
                             <input type="radio" id="customRadioInline2" name="customRadioInline1"
                                 class="custom-control-input">
-                            <label class="custom-control-label" for="customRadioInline2">Woman</label>
+                            <label class="custom-control-label" for="customRadioInline2">Mulher</label>
                         </div>
                     </div>
                 </div>
@@ -32,14 +32,14 @@
                             <input type="date" class="form-control" id="validationDefaultBirthDate"
                                 aria-describedby="inputGroup-sizing-sm" required>
                             <div class="input-group-prepend">
-                                <span class="input-group-text">Birth date</span>
+                                <span class="input-group-text">Nascimento</span>
                             </div>
 
                         </div>
                     </div>
                     <div class="col-md-4 mb-3">
                         <input type="text" class="form-control  form-control-sm" id="validationDefaultPhoneNumber"
-                            placeholder="Phone number" requried>
+                            placeholder="Número de telefone" requried>
                     </div>
                     <div class="col-md-4 mb-3">
                         <input type="text" class="form-control  form-control-sm" id="validationDefault07"
@@ -53,7 +53,7 @@
                                 <span class="input-group-text">@</span>
                             </div>
                             <input type="text" class="form-control" id="validationDefaultUsername"
-                                placeholder="Username" aria-describedby="inputGroup-sizing-sm" required>
+                                placeholder="Usuário" aria-describedby="inputGroup-sizing-sm" required>
                         </div>
                     </div>
                     <div class="col-md-6 mb-3">
@@ -67,21 +67,21 @@
                     </div>
                     <div class="col-md-3 mb-3">
                         <input type="password" class="form-control  form-control-sm" id="validationDefault06"
-                            placeholder="Password" requried>
+                            placeholder="Senha" requried>
                     </div>
                 </div>
                 <div id="divRow4" class="form-row">
                     <div class="col-md-6 mb-3">
                         <input type="password" class="form-control  form-control-sm" id="validationDefault03"
-                            placeholder="City" required>
+                            placeholder="Cidade" required>
                     </div>
                     <div class="col-md-3 mb-3">
                         <input type="text" class="form-control  form-control-sm" id="validationDefault04"
-                            placeholder="State" required>
+                            placeholder="Estado" required>
                     </div>
                     <div class="col-md-3 mb-3">
                         <input type="text" class="form-control  form-control-sm" id="validationDefault05"
-                            placeholder="Zip" required>
+                            placeholder="Cep" required>
                     </div>
                 </div>
                 <div id="divRow5" class="col-md-6 mb-3">
@@ -93,12 +93,12 @@
                     </div> -->
                     <div class="custom-control custom-checkbox mr-sm-2">
                         <input type="checkbox" class="custom-control-input" id="invalidCheck2" required>
-                        <label class="custom-control-label" for="invalidCheck2">Remember my preference</label>
+                        <label class="custom-control-label" for="invalidCheck2">Endereço padrão.</label>
                     </div>
                 </div>
-                <button id="btnRegister" class="btn btn-success btn-sm" type="submit"> Sing in</button>
+                <button id="btnRegister" class="btn btn-success btn-sm" type="submit"> Cadastrar</button>
             </form>
-            <button id="btnBack" [routerLink]="[ '/home']" class="btn btn-outline-info btn-sm"> Back to home</button>
+            <button id="btnBack" [routerLink]="[ '/home']" class="btn btn-outline-info btn-sm"> Voltar</button>
         </div>
     </div>
 </div>
